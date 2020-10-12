@@ -1,0 +1,26 @@
+[package]
+name = "violetabft-proto"
+version = "0.0.1-alpha"
+authors = ["WHTCORPS INC"]
+edition = "2020"
+license = "Apache-2.0"
+keywords = ["violetabft", "distributed-systems", "ha"]
+repository = "https://github.com/whtcorpsinc/violetabft-rs"
+homepage = "https://github.com/whtcorpsinc/violetabft-rs"
+documentation = "https://docs.rs/violetabft-proto"
+description = "Protocol definitions for the rust language implementation of the VioletaBFT algorithm."
+categories = ["algorithms", "database-implementations"]
+build = "build.rs"
+
+[features]
+default = ["protobuf-codec"]
+protobuf-codec = ["protobuf-build/protobuf-codec"]
+prost-codec = ["protobuf-build/prost-codec", "prost", "lazy_static"]
+
+[build-dependencies]
+protobuf-build = { version = "0.11", default-features = false }
+
+[dependencies]
+lazy_static = { version = "1", optional = true }
+prost = { version = "0.6", optional = true }
+protobuf = "2"
