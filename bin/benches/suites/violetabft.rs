@@ -1,4 +1,4 @@
-// Copyright 2019 EinsteinDB Project Authors. Licensed under Apache-2.0.
+// Copyright 2021 EinsteinDB Project Authors. Licensed under Apache-2.0.
 
 use crate::DEFAULT_RAFT_SETS;
 use criterion::Criterion;
