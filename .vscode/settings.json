@@ -1,0 +1,7 @@
+{
+    "vim.incsearch": false,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "vim.autoSwitchInputMethod.switchIMCmd": "",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "",
+    "vim.autoSwitchInputMethod.defaultIM": "Default IM"
+}
