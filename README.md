@@ -8,7 +8,7 @@ VioletaBFT is a leaderless byzantine consensus protocol that orders a step-funct
 
 VioletaBFT is a leaderless byzantine consensus protocol that orders a step-function of automatons and dispatches the stochastic scheduler which pings certain commands in a decentralized way towards hot-cold PRAMS, without relying on any distinguished process.
 
-VioletaBFT exploits the commutativity between commands submitted to the replicated service to improve performance. In the most favorable case, when there is no concurrent non-commuting command, we commit (aka., vote) the next command to execute after one round-trip to the closest fast quorum. 
+VioletaBFT exploits the commutativity between commands submitted to the replicated service to improve performance. In the most favorable case, when there is no concurrent non-commuting command, we commit (aka., vote) the next command to execute after one round-trip to the closest fast quorum.
 
 
 
